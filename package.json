@@ -1,0 +1,16 @@
+{
+  "name": "modio-cli",
+  "version": "0.1.0",
+  "description": "CLI for managing mods and collections on mod.io",
+  "type": "module",
+  "bin": {
+    "modio": "./src/cli.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node ./src/cli.js",
+    "test": "node --test"
+  }
+}
